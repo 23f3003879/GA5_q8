@@ -3,7 +3,7 @@ name: Daily Commit Workflow
 # Run once per day at 23:58 UTC
 on:
   schedule:
-    - cron: '58 23 * * *'  # Runs daily at 23:58 UTC
+    - cron: '12 19 * * *'  # Runs daily at -- UTC
   workflow_dispatch:      # Allows manual trigger
 
 jobs:
